@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4f53ca22c9374244f89d54c52d210d7b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - targetTerrain: {instanceID: 0}
+  - grassMesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+  - grassMaterial: {fileID: 2100000, guid: 57dcd8a4636ed134cac91cb174d41f35, type: 2}
+  - player: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

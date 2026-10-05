@@ -1,0 +1,32 @@
+name: Local Ollama
+
+version: 1.0.0
+schema: v1
+
+models:
+  - name: qwen3
+    provider: ollama
+    model: qwen3:8b
+    roles:
+      - chat
+      - edit
+
+  - name: coder
+    provider: ollama
+    model: hhao/qwen2.5-coder-tools:7b
+    roles:
+      - apply
+      - autocomplete
+      - edit
+
+context:
+  - provider: code
+  - provider: folder
+  - provider: diff
+
+slashCommands:
+  - name: commit
+    description: Create commit
+
+  - name: share
+    description: Share current session

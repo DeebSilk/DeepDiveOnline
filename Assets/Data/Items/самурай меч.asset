@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5409da9a1c3b04a4d86864a3eb12fc1b, type: 3}
+  m_Name: "\u0441\u0430\u043C\u0443\u0440\u0430\u0439 \u043C\u0435\u0447"
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemId: "\u043A\u0430\u0442\u0430\u043D\u0430 "
+  itemName: "\u043A\u0430\u0442\u0430\u043D\u0430 "
+  itemType: 1
+  icon: {fileID: 21300000, guid: b0f9538593535a64c8ab069ccfe2e9e5, type: 3}
+  description: "\u043A\u0430\u0442\u0430\u043D\u0430\n"
+  stackable: 1
+  maxStack: 1
+  dropPrefab: {fileID: 191156447235200549, guid: b08707038c5c10d48b650cf26fe55c96,
+    type: 3}
+  equipPrefab: {fileID: 191156447235200549, guid: b08707038c5c10d48b650cf26fe55c96,
+    type: 3}
+  damage: 120
+  attackSpeed: 4
+  weaponCategory: 0
+  rarity: 0
+  value: 0
+  twoHanded: 0
+  attackRange: 0
+  animatorOverride: {fileID: 0}
